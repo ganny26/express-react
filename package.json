@@ -4,7 +4,8 @@
   "description": "Express React based application",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build":"webpack -d"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +25,7 @@
     "morgan": "^1.8.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "winston": "^2.3.1"
   }
 }
